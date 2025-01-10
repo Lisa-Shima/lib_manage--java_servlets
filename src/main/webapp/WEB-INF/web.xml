@@ -19,4 +19,13 @@
         <servlet-name>FormServlet</servlet-name>
         <url-pattern>/submit</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>GreetServlet</servlet-name>
+        <servlet-class>com.example.servlets.GreetServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GreetServlet</servlet-name>
+        <url-pattern>/greet</url-pattern>
+    </servlet-mapping>
 </web-app>

@@ -10,4 +10,13 @@
         <servlet-name>HelloServlet</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>FormServlet</servlet-name>
+        <servlet-class>com.example.servlets.FormServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FormServlet</servlet-name>
+        <url-pattern>/submit</url-pattern>
+    </servlet-mapping>
 </web-app>

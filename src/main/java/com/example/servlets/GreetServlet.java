@@ -10,6 +10,7 @@ public class GreetServlet extends HttpServlet {
 
         if(session != null){
             String name = (String) session.getAttribute("name");
+            if (name == null) return;
             res.setContentType("text/html");
             res.getWriter().println("<h1>Welcome, " + name + "</h1>");
         }

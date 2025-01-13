@@ -75,4 +75,7 @@
     <listener>
         <listener-class>com.example.listeners.AppLifecycleListener</listener-class>
     </listener>
+    <listener>
+        <listener-class>com.example.listeners.RequestListener</listener-class>
+    </listener>
 </web-app>

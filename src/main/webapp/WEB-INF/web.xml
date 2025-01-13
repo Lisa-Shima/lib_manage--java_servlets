@@ -68,4 +68,11 @@
         <exception-type>java.lang.RuntimeException</exception-type>
         <location>/500.html</location>
     </error-page>
+    
+    <listener>
+        <listener-class>com.example.listeners.ActiveUserListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>com.example.listeners.AppLifecycleListener</listener-class>
+    </listener>
 </web-app>

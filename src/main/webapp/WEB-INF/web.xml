@@ -38,6 +38,15 @@
         <url-pattern>/testerror</url-pattern>
     </servlet-mapping>
     
+    <servlet>
+        <servlet-name>AddUser</servlet-name>
+        <servlet-class>com.example.database.AddUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddUser</servlet-name>
+        <url-pattern>/add-user</url-pattern>
+    </servlet-mapping>
+    
     <filter>
         <filter-name>LoggingFilter</filter-name>
         <filter-class>com.example.filters.LoggingFilter</filter-class>

@@ -74,6 +74,15 @@
         <url-pattern>/logout</url-pattern>
     </servlet-mapping>
     
+    <servlet>
+        <servlet-name>ViewUsersServlet</servlet-name>
+        <servlet-class>com.example.database.CRUD.ViewUsersServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewUsersServlet</servlet-name>
+        <url-pattern>/view-users</url-pattern>
+    </servlet-mapping>
+    
     <filter>
         <filter-name>LoggingFilter</filter-name>
         <filter-class>com.example.filters.LoggingFilter</filter-class>

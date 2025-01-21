@@ -38,6 +38,7 @@ public class UpdateUsersServlet extends HttpServlet {
                 out.println("<td>" + username + "</td>");
                 out.println("<td>" + email + "</td>");
                 out.println("<td><a href='edit-user?id=" + id + "'>Edit</a></td>");
+                out.println("<td><a href='delete-user?id=" + id + "' onclick='return confirm(\"Are you sure you want to delete this user?\")'>Delete</a></td>");
             }
 
             out.println("</body>");

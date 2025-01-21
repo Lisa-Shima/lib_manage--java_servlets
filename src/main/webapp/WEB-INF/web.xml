@@ -110,6 +110,15 @@
         <url-pattern>/update-user</url-pattern>
     </servlet-mapping>
     
+    <servlet>
+        <servlet-name>DeleteUserServlet</servlet-name>
+        <servlet-class>com.example.database.CRUD.DeleteUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteUserServlet</servlet-name>
+        <url-pattern>/delete-user</url-pattern>
+    </servlet-mapping>
+    
     <filter>
         <filter-name>LoggingFilter</filter-name>
         <filter-class>com.example.filters.LoggingFilter</filter-class>

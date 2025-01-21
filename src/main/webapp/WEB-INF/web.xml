@@ -83,6 +83,33 @@
         <url-pattern>/view-users</url-pattern>
     </servlet-mapping>
     
+    <servlet>
+        <servlet-name>UpdateUsersServlet</servlet-name>
+        <servlet-class>com.example.database.CRUD.UpdateUsersServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateUsersServlet</servlet-name>
+        <url-pattern>/update-users</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>EditUserServlet</servlet-name>
+        <servlet-class>com.example.database.CRUD.EditUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditUserServlet</servlet-name>
+        <url-pattern>/edit-user</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UpdateUserServlet</servlet-name>
+        <servlet-class>com.example.database.CRUD.UpdateUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateUserServlet</servlet-name>
+        <url-pattern>/update-user</url-pattern>
+    </servlet-mapping>
+    
     <filter>
         <filter-name>LoggingFilter</filter-name>
         <filter-class>com.example.filters.LoggingFilter</filter-class>
